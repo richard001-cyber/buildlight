@@ -38,6 +38,9 @@ hr{
     border: solid;
     color: #1a1c1c;
 }
+.quote{
+    display: none;
+}
 @media(min-width: 1024px){
 .btn{
     display: none;

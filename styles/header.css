@@ -1,0 +1,64 @@
+nav, .quote {
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+     font-family: "Inter", sans-serif;
+     color: #964900;
+     font-weight: 800;
+}
+.btn{
+    font-size: 1.7rem;
+    background-color: transparent;
+    border: none;
+}
+hr{
+    border: solid;
+    color: #1a1c1c;
+}
+
+@media(min-width: 1024px){
+.btn{
+    display: none;
+}
+nav, .quote{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+}
+.home{
+    color: var(--color)
+}
+li:first-child a{
+    color: var(--color);
+}
+
+a{
+    color: var(--2ndcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--font);
+    
+}
+.quote{
+ background-color:var(--color3);
+ text-transform: uppercase;
+ border: none;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+}
+

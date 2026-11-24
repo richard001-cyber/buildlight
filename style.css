@@ -9,8 +9,8 @@
     --color: #964900;
     --2ndcolor: #1a1c1c;
     --font: "Inter", sans-serif;
-    --color3: #f57c00
-    --color4: #f9f9f9
+    --color3: #f57c00;
+    --color4: #f9f9f9;
 }
 body{
    background-color: var(--color4);
